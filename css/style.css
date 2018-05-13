@@ -1,0 +1,116 @@
+body {
+	background-color: rgba(201, 198, 198, 0.289); 
+}
+aside {
+	width: 30%;
+/*	color: white;*/
+	color:white;
+	background-color: #5DA4D9;
+	margin: 25px 10px O;
+}
+main {
+	width: 70%;
+	color: grey;
+}
+/*aside {
+	color:white;
+}*/
+
+/*-------------------ICONES	-------------------*/
+aside .sizeIcons {
+	/*	color: white;*/
+	color:white;
+	margin: 20px;
+	/* padding: 20px; */
+	font-size: 1.75em;
+    /* vertical-align: -0.5em; */
+}
+.sizeDivText {
+	width: 100%;
+}
+/*main i,*/main .sizeIcons {
+	font-size: 2em; 
+    margin: 10px 20px;
+    padding: 10px;
+    /* vertical-align: -1.1em; */
+	/* margin: 20px; */
+	/* height: 3em;
+	width: 3em; */
+	/* width: 200px; */
+}
+i {
+	margin: 20px;
+}
+main h5 {
+	color: #5DA4D9;
+	/* font-size: 1.5em; */
+}
+h2 {
+	margin: 20px 0;
+	font-size: 2em;
+}
+h3 {
+	font-size: 1.75em;
+	margin: 10px 0;
+}
+h4 {
+	font-size: 1.5em;
+	margin: 20px 0;
+}
+main h4 {
+	margin: 10px 0;
+}
+h5 {
+	margin: 10px 10px 0 0;
+	font-size: 1.25em;
+}
+h6 {
+	font-size: 1em;
+	margin: 5px;
+}
+hr {
+	margin: 20px 0;
+}
+main p {
+	font-size: 0.75em;
+	padding-bottom: 20px;
+	margin-bottom: 2Opx;
+}
+aside p {
+	margin: 10px 5px;
+}
+.bloc {
+	margin: 25px 20px 25px 20px;
+	background-color: white;
+}
+.bloc3 {
+	/* display: flex;
+	justify-content: space-between; */
+/*	width: 175%;%;???????????????*/
+	color: #5DA4D9;
+} 
+.flex {
+	display: flex;
+/*	align-content: center;;*/
+	/* align-items: baseline; */
+}
+.align_baseline {
+	align-items: baseline;
+}
+.photo {
+	background-image: url("../img/maPhoto.jpg");
+	background-size: 100%;
+	background-position: center;
+/*	width: 370px;*/
+	height: 267px;
+/*	text-align: center;*/
+}
+.posNom {
+	position: absolute;
+    top: 180px;
+    left: 85px;
+}
+input[type="range"] {
+		width: 250px;
+		margin-top: 20px
+}
