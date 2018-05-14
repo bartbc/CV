@@ -3,47 +3,34 @@ body {
 }
 aside {
 	width: 30%;
-/*	color: white;*/
 	color:white;
 	background-color: #5DA4D9;
-	margin: 25px 10px O;
+	margin-top: 25px;
+    margin-bottom: 25px;
 }
 main {
 	width: 70%;
 	color: grey;
 }
-/*aside {
-	color:white;
-}*/
-
 /*-------------------ICONES	-------------------*/
 aside .sizeIcons {
-	/*	color: white;*/
 	color:white;
 	margin: 20px;
-	/* padding: 20px; */
 	font-size: 1.75em;
-    /* vertical-align: -0.5em; */
 }
 .sizeDivText {
 	width: 100%;
 }
-/*main i,*/main .sizeIcons {
+main .sizeIcons {
 	font-size: 2em; 
     margin: 10px 20px;
     padding: 10px;
-    /* vertical-align: -1.1em; */
-	/* margin: 20px; */
-	/* height: 3em;
-	width: 3em; */
-	/* width: 200px; */
 }
 i {
 	margin: 20px;
 }
 main h5 {
 	color: #5DA4D9;
-	/* font-size: 1.5em; */
 }
 h2 {
 	margin: 20px 0;
@@ -84,15 +71,10 @@ aside p {
 	background-color: white;
 }
 .bloc3 {
-	/* display: flex;
-	justify-content: space-between; */
-/*	width: 175%;%;???????????????*/
 	color: #5DA4D9;
 } 
 .flex {
 	display: flex;
-/*	align-content: center;;*/
-	/* align-items: baseline; */
 }
 .align_baseline {
 	align-items: baseline;
@@ -100,10 +82,7 @@ aside p {
 .photo {
 	background-image: url("../img/maPhoto.jpg");
 	background-size: 100%;
-	background-position: center;
-/*	width: 370px;*/
 	height: 267px;
-/*	text-align: center;*/
 }
 .posNom {
 	position: absolute;
